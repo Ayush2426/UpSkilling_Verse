@@ -4,7 +4,6 @@ import java.util.Arrays;
 public class DutchNatinoalFlag {
     public int[] dutchNationalFlag(int[] nums){
         int left = 0, mid = 0, right = nums.length - 1;
-
         while(mid <= right){
             if(nums[mid] == 0){
                 swap(nums, mid, left);
